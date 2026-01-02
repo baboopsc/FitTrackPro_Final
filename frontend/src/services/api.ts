@@ -1,7 +1,8 @@
 ﻿import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3001/api',
+  // Vercel'deyken oradaki ayarı kullan, bilgisayarındayken localhost'u kullan
+  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:3001/api',
 });
 
 // Her istekte Token'ı otomatik ekle kanka
