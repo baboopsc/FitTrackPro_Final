@@ -1,0 +1,126 @@
+﻿/* Google Fontu - Poppins (Okunaklı ve Modern) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --primary-color: #2563eb; /* Kurumsal Mavi */
+  --primary-hover: #1d4ed8;
+  --bg-color: #f3f4f6;      /* Göz yormayan açık gri */
+  --card-bg: #ffffff;
+  --text-dark: #111827;
+  --text-light: #6b7280;
+  --border-color: #e5e7eb;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- KART TASARIMLARI (Minimal) --- */
+.card {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 12px !important;
+  background: var(--card-bg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Çok hafif gölge */
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Hoverda abartısız efekt */
+  transform: translateY(-2px);
+}
+
+.card-header {
+  background-color: white !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 1.25rem !important;
+  font-weight: 600;
+}
+
+/* --- BUTONLAR (Mat ve Düz) --- */
+.btn {
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  font-weight: 500 !important;
+  border: none !important;
+  box-shadow: none !important; /* Parlama yok */
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover) !important;
+}
+
+.btn-success {
+  background-color: #10b981 !important; /* Mat Yeşil */
+}
+
+.btn-danger {
+  background-color: #ef4444 !important; /* Mat Kırmızı */
+}
+
+.btn-warning {
+  background-color: #f59e0b !important; /* Mat Turuncu */
+  color: white !important;
+}
+
+.btn-outline-primary {
+  background: transparent !important;
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+.btn-outline-primary:hover {
+  background: var(--primary-color) !important;
+  color: white !important;
+}
+
+/* --- NAVBAR (Sade Beyaz) --- */
+.navbar-custom {
+  background: white !important;
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.8rem 0 !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--text-dark) !important;
+}
+
+/* --- INPUTLAR --- */
+.form-control, .form-select {
+  border-radius: 8px !important;
+  border: 1px solid #d1d5db !important;
+  padding: 10px !important;
+  background-color: white !important;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1) !important;
+}
+
+/* --- TABLOLAR --- */
+.table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+.table thead th {
+  background-color: #f9fafb;
+  color: var(--text-light);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border-color);
+}
