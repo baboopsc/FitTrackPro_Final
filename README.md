@@ -39,18 +39,7 @@ Proje **MERN Stack** (MongoDB, Express, React, Node.js) mimarisi kullanılarak g
 * **MongoDB & Mongoose:** NoSQL veritabanı yönetimi.
 * **JWT (JSON Web Token):** Güvenlik ve oturum yönetimi.
 * **Render:** Backend sunucu barındırma.
-
 ---
-
-## 📸 Ekran Görüntüleri
-
-| Giriş Ekranı | Dashboard |
-| :---: | :---: |
-| ![Login Page](https://via.placeholder.com/400x200?text=Login+Ekrani+Gorseli) | ![Dashboard](https://via.placeholder.com/400x200?text=Dashboard+Gorseli) |
-
-
----
-
 ## ⚙️ Kurulum ve Yerel Çalıştırma (Local Setup)
 
 Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
